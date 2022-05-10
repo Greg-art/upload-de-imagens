@@ -7,7 +7,6 @@ import { CardList } from '../components/CardList';
 import { api } from '../services/api';
 import { Loading } from '../components/Loading';
 import { Error } from '../components/Error';
-import { string } from 'yup/lib/locale';
 
 interface Image {
   title: string;

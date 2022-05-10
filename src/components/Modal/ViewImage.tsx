@@ -45,7 +45,7 @@ export function ModalViewImage({
             maxH={['600px']}
           />
         </ModalBody>
-        <ModalFooter justifyContent='left' h='2rem' py='20px'>
+        <ModalFooter justifyContent='left' h='2rem' py='20px' bgColor='pGray.800' borderBottomRadius='5px'>
           <Link
             href={imgUrl}
             isExternal
